@@ -1,0 +1,23 @@
+/*style.css*/
+
+.header, .footer {
+  color: #F9FAF8;
+  background-color: #1F2937;
+}
+
+button {
+	color: #F9FAF8;
+  background-color: #3882F6;
+  border: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
