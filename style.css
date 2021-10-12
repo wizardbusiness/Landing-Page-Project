@@ -1,8 +1,27 @@
 /*style.css*/
 
 .header, .footer {
-  color: #F9FAF8;
   background-color: #1F2937;
+}
+
+.logo {
+  color: #F9FAF8;
+}
+
+h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+img {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.text {
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 button {
