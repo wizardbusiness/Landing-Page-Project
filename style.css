@@ -4,6 +4,21 @@
   background-color: #1F2937;
 }
 
+.header {
+  display: flex;
+  padding-left: 100px;
+}
+
+.insert {
+  display: flex;
+}
+
+.insert-left {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
 .logo {
   color: #F9FAF8;
 }
@@ -60,3 +75,4 @@ blockquote {
   color: #E5E7EB;
   font-size: 18px;
 }
+
