@@ -158,16 +158,35 @@ h2 {
   margin-right: 65px;
 }
 
-.register {
+.register-section {
   background-color: #3882F6;
-  height: 150px;
-  width: 800px;
+  height: 100px;
+  margin: 75px 200px 75px 200px;
+  border-radius: 6px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-section {
+  height: 150px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
 
+.bold {
+  font-weight: bold;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
 }
 
 #button2 {
-  color: #F9FAF8
+  color: #F9FAF8;
   border: 2px solid #F9FAF8;
 }
 
