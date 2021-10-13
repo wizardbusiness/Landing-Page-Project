@@ -193,5 +193,10 @@ h2 {
 .footer {
   color: #E5E7EB;
   font-size: 18px;
+  height: 75px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
-
