@@ -103,6 +103,8 @@ h2 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .info {
@@ -124,6 +126,7 @@ h2 {
 }
 
 .subtexts {
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -132,16 +135,25 @@ h2 {
 .subtext {
   width: 176px;
 }
-.quote {
+.quote-section {
   background-color: #E5E7EB;
+  padding: 100px 255px 100px 255px;
+  display: flex;
+  flex-direction: column;
 }
 
-blockquote {
+.quote {
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
+
 }
 
+.attribution {
+  align-self: flex-end;
+  font-weight: bold;
+  margin-right: 65px;
+}
 .footer {
   color: #E5E7EB;
   font-size: 18px;
