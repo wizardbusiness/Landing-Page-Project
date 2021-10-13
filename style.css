@@ -73,8 +73,11 @@ h1 {
 button {
   color: #F9FAF8;
   background-color: #3882F6;
-  padding: 7px 30px 7px 30px;
   border-radius: 5px;
+  height: 33px;
+  width: 115px;
+  padding: 7px 30px 7px 30px;
+  
 }
 
 #button1 {
@@ -162,10 +165,12 @@ h2 {
   background-color: #3882F6;
   height: 100px;
   margin: 75px 200px 75px 200px;
+  padding: 20px;
   border-radius: 6px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 10px;
 }
 .text-section {
   height: 150px;
@@ -188,6 +193,9 @@ h2 {
 #button2 {
   color: #F9FAF8;
   border: 2px solid #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
