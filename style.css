@@ -40,6 +40,7 @@ a {
 
 .insert {
   display: flex;
+  gap: 32px;
 }
 
 .header-text-container {
@@ -73,8 +74,11 @@ button {
   color: #F9FAF8;
   background-color: #3882F6;
   padding: 7px 30px 7px 30px;
-  border: none;
   border-radius: 5px;
+}
+
+#button1 {
+  border: none;
 }
 
 .img-container {
@@ -146,7 +150,6 @@ h2 {
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
-
 }
 
 .attribution {
@@ -154,6 +157,20 @@ h2 {
   font-weight: bold;
   margin-right: 65px;
 }
+
+.register {
+  background-color: #3882F6;
+  height: 150px;
+  width: 800px;
+  display: flex;
+
+}
+
+#button2 {
+  color: #F9FAF8
+  border: 2px solid #F9FAF8;
+}
+
 .footer {
   color: #E5E7EB;
   font-size: 18px;
